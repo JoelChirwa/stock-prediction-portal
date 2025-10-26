@@ -4,6 +4,7 @@ import Button from './Button'
 const Main = () => {
   return (
     <>
+      
         <div className="container">
             <div className="text-center p-3 bg-light-dark rounded">
                 <h1 className="text-light">Stock Prediction Portal</h1>
@@ -15,7 +16,7 @@ to enhance market accuracy, minimize risk, and identify profitable opportunities
                 </p>
                  <Button text="Login" class="btn-outline-info" />
             </div>
-            
+       
         </div>
     </>
   )
